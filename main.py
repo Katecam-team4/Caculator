@@ -9,6 +9,7 @@ def minus(num1:int, num2:int):
 
 if __name__ == '__main__':
     while True:
+        print("카키 4조가 만든 간단 계산기 프로그램입니다.")
         num1 = float(input("첫 번째 숫자를 입력하세요: "))
         operator = input("연산자를 입력하세요 (+, -, *, /): ")
         num2 = float(input("두 번째 숫자를 입력하세요: "))
