@@ -2,10 +2,10 @@ import division
 import multiplication
 
 def plus(num1:int, num2:int):
-    print(num1 + num2)
+    print(int(num1 + num2))
 
 def minus(num1:int, num2:int):
-    print(num1 - num2)
+    print(int(num1 - num2))
 
 if __name__ == '__main__':
     while True:
