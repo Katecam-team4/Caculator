@@ -18,7 +18,7 @@ if __name__ == '__main__':
         elif operator == "-":
             minus(num1, num2)
         elif operator == "*":
-            print(multiplication(num1, num2))
+            print(multiplication.multiplication(num1, num2))
         elif operator == "/":
             plus(num1, num2)
             # 진우님 함수 호출
