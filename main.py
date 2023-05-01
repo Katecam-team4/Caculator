@@ -19,8 +19,7 @@ if __name__ == '__main__':
         elif operator == "-":
             minus(num1, num2)
         elif operator == "*":
-            plus(num1, num2)
-            # 다빈님 함수 호출
+            print(multiplication.multiplication(num1, num2))
         elif operator == "/":
             division.divide(num1, num2)
         else:
