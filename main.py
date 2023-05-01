@@ -1,6 +1,9 @@
 def plus(num1:int, num2:int):
     print(num1 + num2)
 
+def minus(num1:int, num2:int):
+    print(num1 - num2)
+
 if __name__ == '__main__':
     while True:
         num1 = float(input("첫 번째 숫자를 입력하세요: "))
@@ -10,8 +13,7 @@ if __name__ == '__main__':
         if operator == "+":
             plus(num1, num2)
         elif operator == "-":
-            plus(num1, num2)
-            # 강님 함수 호출
+            minus(num1, num2)
         elif operator == "*":
             plus(num1, num2)
             # 다빈님 함수 호출
