@@ -1,5 +1,5 @@
-def do_fizzbuzz(num:int):
-    print(f'hello {num}')
+def plus(num1:int, num2:int):
+    print(num1 + num2)
 
 if __name__ == '__main__':
     while True:
