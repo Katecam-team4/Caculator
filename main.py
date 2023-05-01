@@ -22,12 +22,10 @@ if __name__ == '__main__':
             plus(num1, num2)
             # 다빈님 함수 호출
         elif operator == "/":
-            plus(num1, num2)
-            # 진우님 함수 호출
+            division.divide(num1, num2)
         else:
             print("잘못된 연산자입니다. 다시 입력해주세요.")
-            continue
-        
+            continue        
         choice = input("계속 하시겠습니까? (Y/N): ")
         if choice == "N":
             break
